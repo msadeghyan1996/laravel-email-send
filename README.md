@@ -3,7 +3,7 @@ send email in laravel framework
 
 #### How to use it?
 1. copy Email.php file to app\Helpers.
-2. in your controller use this class *(use Helpers\Email.php)*
+2. in your controller use this class *(use Helpers\Email)*
 3. define $data variable and set email datas like below :
 ```
 $data = [
