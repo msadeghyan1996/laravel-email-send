@@ -10,7 +10,7 @@ class Email
   public static function send($data)
   {
     Mail::send($data['view'], ['data'=>$data['content']], function ($mail) use ($data){
-      $mail->from('support@rondteam.com', $data['title'])
+      $mail->from('set you email address', $data['title'])
       ->to($data['to'])->subject($data['subject']);
     });
   }
